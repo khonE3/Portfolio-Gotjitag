@@ -6,10 +6,13 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
       {/* Grid background */}
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: `linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)`,
-        backgroundSize: '60px 60px'
-      }} />
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)`,
+          backgroundSize: "60px 60px",
+        }}
+      />
 
       <div className="relative z-10 max-w-5xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
         {/* Profile Image */}
@@ -19,10 +22,12 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="relative"
         >
-          <div
-            className="w-48 h-48 lg:w-64 lg:h-64 overflow-hidden box-glow rounded-2xl"
-          >
-            <img src={profileImg} alt="Thanakrit Thuakthao" className="w-full h-full object-cover" />
+          <div className="w-48 h-48 lg:w-64 lg:h-64 overflow-hidden box-glow rounded-2xl">
+            <img
+              src={profileImg}
+              alt="Thanakrit Thuakthao"
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="absolute -bottom-2 -right-2 w-6 h-6 rounded-full bg-primary animate-pulse" />
         </motion.div>
@@ -46,24 +51,37 @@ const Hero = () => {
             Software Engineer
           </p>
           <p className="text-muted-foreground max-w-lg mb-8 leading-relaxed text-sm md:text-base">
-            Frontend-focused developer with backend understanding. Building responsive UIs with React, Vue, Next.js & Tailwind. Experienced with Go, Node.js, AI integrations, and DevOps workflows.
+            I'm a Software Engineer with a strong focus on frontend development and a
+            solid understanding of backend systems.
           </p>
 
           <div className="flex items-center gap-4 justify-center lg:justify-start">
-            <a href="https://github.com/Khone3" target="_blank" rel="noopener noreferrer"
-              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+            <a
+              href="https://github.com/Khone3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/thanakrit-thuakthao-73829a284/" target="_blank" rel="noopener noreferrer"
-              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+            <a
+              href="https://www.linkedin.com/in/thanakrit-thuakthao-73829a284/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
               <Linkedin size={20} />
             </a>
-            <a href="mailto:gotgothot.99@gmail.com"
-              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+            <a
+              href="mailto:gotgothot.99@gmail.com"
+              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
               <Mail size={20} />
             </a>
-            <a href="tel:+66627395866"
-              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+            <a
+              href="tel:+66627395866"
+              className="p-3 rounded-lg bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
               <Phone size={20} />
             </a>
           </div>
