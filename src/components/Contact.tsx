@@ -26,8 +26,8 @@ const Contact = () => {
           {[
             { icon: Mail, label: "Email", value: "gotgothot.99@gmail.com", href: "mailto:gotgothot.99@gmail.com" },
             { icon: Phone, label: "Phone", value: "062-739-5866", href: "tel:+66627395866" },
-            { icon: Github, label: "GitHub", value: "Khone3", href: "https://github.com/Khone3" },
-            { icon: Linkedin, label: "LinkedIn", value: "Thanakrit T.", href: "https://www.linkedin.com/in/thanakrit-thuakthao-73829a284/" },
+            { icon: Github, label: "GitHub", value: "khonE3", href: "https://github.com/Khone3" },
+            { icon: Linkedin, label: "LinkedIn", value: "Thanakrit Thuakthao", href: "https://www.linkedin.com/in/thanakrit-thuakthao-73829a284/" },
           ].map((item) => (
             <a
               key={item.label}

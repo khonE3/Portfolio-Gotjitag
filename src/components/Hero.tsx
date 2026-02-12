@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImg from "@/assets/profile.png";
+import profileImg from "@/assets/profile.jpg";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
@@ -19,7 +19,9 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="relative"
         >
-          <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden border-2 border-primary/30 box-glow">
+          <div
+            className="w-48 h-48 lg:w-64 lg:h-64 overflow-hidden box-glow rounded-2xl"
+          >
             <img src={profileImg} alt="Thanakrit Thuakthao" className="w-full h-full object-cover" />
           </div>
           <div className="absolute -bottom-2 -right-2 w-6 h-6 rounded-full bg-primary animate-pulse" />
