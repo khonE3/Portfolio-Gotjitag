@@ -1,0 +1,18 @@
+services:
+  jenkins:
+    build: 
+      context: ./jenkins
+    container_name: jenkins_cicd
+    restart: unless-stopped
+    ports:
+      - "8093:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      # Mount the project directory so Jenkins can access it easily (optional, but good for local dev/testing without git push)
+      # - ./:/var/jenkins_home/workspace/Portfolio-Gotjitag 
+    environment:
+      - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+
+volumes:
+  jenkins_home:
