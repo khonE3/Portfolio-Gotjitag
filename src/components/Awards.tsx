@@ -51,7 +51,7 @@ const Awards = () => {
         >
           <p className="font-mono text-primary text-sm mb-2">{"// awards"}</p>
           <h2 className="text-3xl md:text-4xl font-mono font-bold text-foreground">
-            Awards & Activities<span className="text-primary">.</span>
+            Awards<span className="text-primary">.</span>
           </h2>
         </motion.div>
 

@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# Portfolio - Gotjitag
 
-## Project info
+A modern, responsive personal portfolio website designed to showcase projects, skills, awards, and activities. Built with performance and aesthetics in mind using the latest web technologies.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Technologies
 
-## How can I edit this code?
+- **Framework:** [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Package Manager:** [Bun](https://bun.sh/) (or npm/yarn)
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **Responsive Design:** Fully optimized for all device sizes (Mobile, Tablet, Desktop).
+- **Interactive UI:** Smooth transitions and hover effects using Framer Motion.
+- **Project Showcase:** Detailed cards for featured projects with tech stack tags.
+- **Activity Section:** Image carousel highlighting recent events and hackathons.
+- **Awards & Achievements:** Dedicated section for honors and recognitions.
+- **Dark Mode Theme:** Custom green-accented dark theme for a developer-centric look.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Installation & Setup
 
-Changes made via Lovable will be committed automatically to this repo.
+1.  **Clone the repository:**
 
-**Use your preferred IDE**
+    ```bash
+    git clone https://github.com/yourusername/portfolio-gotjitag.git
+    cd portfolio-gotjitag
+    ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2.  **Install dependencies:**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+    ```bash
+    bun install
+    # or
+    npm install
+    ```
 
-Follow these steps:
+3.  **Run development server:**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+    ```bash
+    bun dev
+    # or
+    npm run dev
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4.  **Build for production:**
+    ```bash
+    bun run build
+    # or
+    npm run build
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Deployment
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+This project is optimized for deployment on **Vercel**.
 
-**Edit a file directly in GitHub**
+1.  Push your code to a GitHub repository.
+2.  Import the project in [Vercel](https://vercel.com/new).
+3.  Vercel will automatically detect Vite and set the correct build settings.
+4.  Deploy!
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+_Note: A `vercel.json` file is included to handle client-side routing._
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is licensed under the MIT License.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2025 Gotjitag
