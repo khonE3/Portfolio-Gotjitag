@@ -2,6 +2,9 @@
 
 A modern, responsive personal portfolio website designed to showcase projects, skills, awards, and activities. Built with performance and aesthetics in mind using the latest web technologies.
 
+<img width="1430" height="821" alt="image" src="https://github.com/user-attachments/assets/152255d4-2b2d-4c2a-8351-e1a63c824644" />
+
+
 ## 🚀 Technologies
 
 - **Framework:** [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
